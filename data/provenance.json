@@ -1,0 +1,17 @@
+{
+  "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSEU,DEXUSUK,DEXJPUS",
+  "series": {
+    "EURUSD": "DEXUSEU",
+    "GBPUSD": "DEXUSUK",
+    "JPYUSD": "DEXJPUS"
+  },
+  "retrieved_utc": "2026-11-18T04:41:03.459031+00:00",
+  "start": "2000-01-01",
+  "end": "2025-12-31",
+  "rows": 6783,
+  "provider_payload_sha256": "ed5823017d53db929b1ed119b9358ada23336c31ef7669d5780c2c365f1645d9",
+  "snapshot_sha256": "d439b240ff6c6061ffde013f2de76cd996ce73fda9491d873f523ff31bcca97a",
+  "license": "Public domain: citation requested (Federal Reserve H.10; see FRED series pages)",
+  "transform": "JPY series reciprocated; missing releases preserved; no interpolation",
+  "vintage_note": "Latest historical snapshot, not real-time publication vintages"
+}

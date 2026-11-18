@@ -1,0 +1,49 @@
+{
+  "completed_utc": "2026-11-18T04:55:43.770675+00:00",
+  "seed": 20261117,
+  "mode": "full",
+  "synthetic_trials_per_dgp": 100,
+  "synthetic_scenarios": 4,
+  "walk_forward": {
+    "train_size": 1250,
+    "refit_every": 252,
+    "n_states": 2,
+    "n_init": 4,
+    "max_iter": 150,
+    "seed": 20261117
+  },
+  "data_sha256": "d439b240ff6c6061ffde013f2de76cd996ce73fda9491d873f523ff31bcca97a",
+  "python": "3.12.6",
+  "numpy": "2.5.5",
+  "pandas": "3.1.1",
+  "elapsed_seconds": 43.240318208001554,
+  "converged_fits": 248,
+  "total_fits": 252,
+  "selection": "Six initial models plus a labeled follow-up Student-t EWMA; no winner selection.",
+  "source_sha256": {
+    "__init__.py": "fab593c48e33918960e274d93269b389973b0a04ddab8d9c928a57675aef906b",
+    "cli.py": "30d04d4ae5a5d7825b64cbe1f5166f192d6e3b192b734edc3c53e896411eb4e4",
+    "data.py": "354ba5807cecea6d8186a454843b36e445df87a2ee54af6e79ba17fa45687f40",
+    "evaluation.py": "edd57ce6ec73d42d7eda11dfa5b99fffbf528078655d87a1a945928d131d6860",
+    "experiments.py": "eb75ef89a33213cb33a1972ec88e7384b9cec06b99d0c45bf1e8707de60a07ad",
+    "hmm.py": "e20165c05474ca2b8c8e0a54fbf41bf47b7782af22a05943871b9fefb8f1c222",
+    "numerics.py": "6efbfa461876c3f9661e46bf90d963a4e58daaf567232c7f3a3b9e94a7502288",
+    "walkforward.py": "043fe7b827b22d143639641eeccb982337f8b67e1e7fd299216d552ec8c06bae"
+  },
+  "artifact_sha256": {
+    "REPORT.md": "c712915dc4a456af8e01efa18b41a5f368fb7e693eb458d728cd8ea116ecae9b",
+    "figures/causal_vs_smoothed.png": "103ccba47528949c1ac88e8e70b24e7c767b0545bc23fedc9f7e1caf52100516",
+    "figures/coverage_comparison.png": "baac583f2814d64dc9b67afdba7533fafe464d09f91b992d56953e8f3067c56d",
+    "figures/paired_forecast_scores.png": "18eb60ded6469d0c85392cc1855f92063ce884822eb485f7eb950880b028f256",
+    "figures/pit_calibration.png": "84113768756d1a18853c6174c5627c2b70e58cb761e9566b27c292895521a4c7",
+    "figures/regime_calibration.png": "3123039ac74cdf26f70ee85e7f3330bdad33531e294b77dcade9b911d873d4e0",
+    "figures/synthetic_ablation.png": "de5dc26a1110215963c032c5c432d47b2b15d956edada0188e0e0a933a2e98a6",
+    "fit_audit.json": "9e1a085bf939be76076d3c2bd6e3a5c7441cd7e88359709318480b51dc4c254a",
+    "forecasts.csv.gz": "08991b186f7ceb18c498c7862a76300810ad3f5a639b7fe1fe11495a9dac5197",
+    "leakage_demo.csv": "a1d8192300b9a4f67b579abe07fdede9cfdf323225d2b8cc570c7801ebfd0327",
+    "paired_logscore_intervals.csv": "7e13f27c2e4baa3abb453002261a87df397c020dd8f530a20d0a9a630bfc07ad",
+    "real_summary.csv": "e2fd840084d7c0f0f6288408066af3892206d678d9b86a0bd1edc98f63a2b7b7",
+    "synthetic_summary.csv": "8bfded0317717b40f619887bac0860fd58d5ca129818f955cf3ea8f410115682",
+    "synthetic_trials.csv": "613a2b690ea9dc3c996840d4b4b600f73d22810d4b1089f5958ffc150ee2c21a"
+  }
+}

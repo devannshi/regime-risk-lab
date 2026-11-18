@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "regime-risk-lab"
+version = "0.1.0"
+readme = "README.md"
+description = "Original hidden Markov inference and honest walk-forward distributional risk research"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26", "scipy>=1.12", "pandas>=2.1", "matplotlib>=3.8", "numba>=0.60", "requests>=2.31"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.8", "hmmlearn>=0.3.3", "nbformat>=5", "nbclient>=0.10", "ipykernel>=6"]
+
+[project.scripts]
+regime-risk = "regime_risk.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I", "UP", "B"]
+
